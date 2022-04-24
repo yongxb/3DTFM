@@ -26,7 +26,7 @@ Please ensure that the [required packages](#required-packages) are installed.
 ### Folder setup
 Please also ensure that you have the following files in the input folder:
 - CSV containing nodal information
-- Interpolated displacements from ANSYS. Please load the forces obtain from ([vector processing](../5_Vector_processing/README.md)) and save 
+- Interpolated displacements from ANSYS. Please load the forces obtain from ([vector processing](../5_Vector_processing)) and save 
   the nodal displacements from ANSYS. 
 - Folder containing the FEM results from the nodal forces
 
