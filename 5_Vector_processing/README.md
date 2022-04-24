@@ -4,7 +4,7 @@ Python script to remove any global movements (such as drifting) inherent in the 
 ***
 ## Overview
 It is unlikely that there is no movement between the acquisition of the two image volume. Thus, this script remove 
-these movements by using the median force values in a region which should be static. In addition, it also uses a 
+these movements by using the median displacement values in a region which should be static. In addition, it also uses a 
 line profile based method to correct for any changes to the gel height in the z direction. Lastly, this script also 
 sub-samples the vectors and output it in a format that can be imported into ANSYS.
 
