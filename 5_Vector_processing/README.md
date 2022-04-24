@@ -1,4 +1,4 @@
-# Vector process
+# Vector processing
 Python script to remove any global movements (such as drifting) inherent in the image volumes
 
 ***
