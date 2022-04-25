@@ -105,7 +105,7 @@ def calculate_pressure(elements, node_ids, force_ids, points_array, force_array,
         mean_hull_y = np.mean(hull_y, axis=0)
         node_normal.append(mean_hull_cross / np.linalg.norm(mean_hull_cross))
 
-        # perfrom Graham-Schmidt orthonormalization
+        # perfrom Gram-Schmidt orthonormalization
         cross_x = mean_hull_x - np.dot(mean_hull_cross, mean_hull_x) / np.dot(mean_hull_cross, mean_hull_cross) * mean_hull_cross
         node_x.append(cross_x / np.linalg.norm(cross_x))
         cross_y = mean_hull_y - \
